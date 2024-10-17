@@ -219,11 +219,10 @@ def cs_input_field():
         label_visibility="collapsed",
         placeholder="Enter text here"
     )
-
+    
     if text_input:
         ic(text_input)
         #st.write("You entered: ", text_input)
-
         return text_input
     
 
