@@ -12,12 +12,11 @@ from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
 
 from langchain_groq import ChatGroq
-from IPython.display import Image, display
 
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langgraph.prebuilt import ToolNode, tools_condition
 
-import matplotlib.pyplot as plt
+
 
 from langgraph.checkpoint.memory import MemorySaver
 

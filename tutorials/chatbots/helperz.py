@@ -148,6 +148,7 @@ def test_text_input():
 
 # region Customer Support
 
+'''
 db_url = "https://storage.googleapis.com/benchmarks-artifacts/travel-db/travel2.sqlite"
 local_file = "travel2.sqlite"
 # The backup lets us restart for each tutorial section
@@ -157,11 +158,12 @@ if overwrite or not os.path.exists(local_file):
     response = requests.get(db_url)
     response.raise_for_status()  # Ensure the request was successful
     with open(local_file, "wb") as f:
-        ic(response.content)
+        #ic(response.content)
         f.write(response.content)
     # Backup - we will use this to "reset" our DB in each section
     shutil.copy(local_file, backup_file)
 
+    '''
 
 # Convert the flights to present time for our tutorial
 def update_dates(file):
@@ -314,8 +316,9 @@ def _print_event(event: dict, _printed: set, max_length=1500):
 
 
 if __name__ == "__main__":
-    
+    '''
     db = update_dates(local_file)
     docs = getDocs()
     retriever = VectorStoreRetriever.from_docs(docs, openai.Client())
     ic(docs)
+    '''
