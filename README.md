@@ -6,6 +6,11 @@ LangGraph Tutorials and HowTos with Streamlit
 
 ## 20241017
 
+- Code Assistant - Not Working
+- Customer Support - Not Working
+
+## 20241017
+
 - Logic in streamlit seems to often be:
 
 1.  create a function that returns a compiled graph and decor it with @st.cache_resource

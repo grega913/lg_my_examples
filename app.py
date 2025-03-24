@@ -10,6 +10,7 @@ from tutorials.quick_start.part7 import part7
 from tutorials.chatbots.customer_support.customer_support import customer_support
 from tutorials.chatbots.information_gather_prompting.igp import igp
 from tutorials.chatbots.code_assistant.code_assistant import code_assistant
+from tutorials.rag.adaptive_rag.adaptive_rag import adaptive_rag
 from playground import fixed_input_on_bottom
 
 
@@ -36,7 +37,8 @@ page_names_to_funcs = {
     "Quick Start - Part 7: Time Travel": part7,
     "Chatbots - Customer Support": customer_support,
     "Chatbots - IGP": igp,
-    "Chatbots - Code Assistant": code_assistant
+    "Chatbots - Code Assistant": code_assistant,
+    "RAG - Adaptiv_RAG:": adaptive_rag
 
 }
 

@@ -4,6 +4,9 @@ import streamlit as st
 
 from langchain_core.messages import AIMessage, ToolMessage
 
+
+
+
 def getGraphsSnapshot(graph, config):
     ic("def getGraphsSnapshot")
     snapshot = graph.get_state(config)
@@ -82,3 +85,8 @@ def showGraphsHistory(graph, config):
         if len(state.values["messages"]) == 6:
             # We are somewhat arbitrarily selecting a specific state based on the number of chat messages in the state.
             to_replay = state
+
+
+
+
+
