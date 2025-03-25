@@ -12,3 +12,4 @@ Examples from https://langchain-ai.github.io/langgraph/how-tos/
 
 6.  map-reduce.ipynb: https://langchain-ai.github.io/langgraph/how-tos/map-reduce/
 7.  command.ipynb https://langchain-ai.github.io/langgraph/how-tos/command/
+8.  configuration.ipynb: https://langchain-ai.github.io/langgraph/how-tos/configuration/
